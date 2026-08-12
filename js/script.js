@@ -274,6 +274,16 @@ const casinoData = {
         support: '24/7 Multilingual Support',
         minDeposit: '$20'
     },
+    'quick-bet': {
+        name: 'Quick Bet Casino',
+        bonus: '150% up to $1,500',
+        freeSpins: '100 Free Spins',
+        games: '3,200+',
+        payout: 'Instant (Crypto)',
+        rating: '6.7/10',
+        support: '24/7 Multilingual Support',
+        minDeposit: '$20'
+    },
     'boomerang': {
         name: 'Boomerang Casino',
         bonus: '150% up to $1,500',
@@ -635,6 +645,69 @@ function openReviewModal(casinoId) {
                 'Live chat can be busy during peak hours'
             ]
         },
+        'royal-reels-casino': {
+            name: 'Royal Reels Casino',
+            rating: '6.1/10',
+            quickVerdict: 'Royal Reels is a premium Australian-themed casino known for its exceptional game variety and player-focused features. It offers exclusive original slots, a generous cashback program, and lightning-fast crypto payments, making it a great choice for players seeking quality and innovation.',
+            bonuses: {
+                welcome: '100% up to $500 + 100 Free Spins',
+                wageringRequirement: '35x bonus',
+                minDeposit: '$20',
+                features: [
+                    'Daily casino promotions and offers',
+                    'Sports betting welcome bonus available',
+                    'Reload bonuses every Friday - up to 50%',
+                    'Elite VIP cashback program - up to 15%',
+                    'Birthday bonus surprises',
+                    'Exclusive high-roller packages',
+                    'Acca boost for sports betting'
+                ]
+            },
+            paymentMethods: {
+                deposits: ['Visa/Mastercard', 'PayPal', 'Skrill', 'Neteller', 'Paysafecard', 'Bank Transfer', 'Rapid Transfer', 'Apple Pay', 'Google Pay'],
+                withdrawals: ['Same as deposit methods'],
+                withdrawalTime: '24-48 hours (E-wallets) / 3-5 days (Cards) / 1-3 days (Bank Transfer)',
+                limits: 'Min: $10 / Max: $30,000 per transaction (VIP higher)'
+            },
+            softwareProviders: [
+                'Playtech',
+                'Evolution Gaming',
+                'NetEnt',
+                'Microgaming',
+                'Pragmatic Play',
+                'Red Tiger',
+                'Blueprint Gaming',
+                'Big Time Gaming',
+                'Quickspin',
+                'Nolimit City',
+                'Yggdrasil',
+                'Push Gaming',
+                'Thunderkick',
+                'ELK Studios',
+                '+ 50 more providers'
+            ],
+            pros: [
+                '200% welcome bonus up to $2,000 + 150 free spins',
+                '20+ years of trusted operation worldwide',
+                '4,000+ premium casino games',
+                '200+ live dealer tables with professional dealers',
+                'Award-winning mobile app (iOS & Android)',
+                'Integrated sports betting platform',
+                'Elite VIP program with personal account managers',
+                'Fast and reliable withdrawals',
+                'Excellent 24/7 multilingual customer support',
+                'Multiple payment options including e-wallets',
+                'Live streaming of sports events',
+                'Strong licensing and regulation (UK, Malta)',
+                'In-play betting and cash-out features',
+                'Tutorial system for beginners'
+            ],
+            cons: [
+                'Bonus wagering requirements are standard (35x)',
+                'Some countries restricted',
+                'Live chat can be busy during peak hours'
+            ]
+        },
         'millioner': {
             name: 'Millioner Casino',
             rating: '6.7/10',
@@ -766,6 +839,40 @@ function openReviewModal(casinoId) {
         'royal-vegas': {
             name: 'Royal Vegas Palace',
             rating: '9.6/10',
+            pros: [
+                '150% bonus up to $1,500',
+                'Established and trusted brand',
+                'Live dealer games available',
+                'VIP loyalty program',
+                'Mobile app for iOS and Android',
+                '2,500+ quality games'
+            ],
+            cons: [
+                'Slightly higher wagering requirements',
+                'Account verification can take 24-48 hours'
+            ],
+            summary: 'Royal Vegas Palace combines reliability with quality. As an established operator, they offer a premium gaming experience with live dealers, VIP perks, and a solid game selection.'
+        },
+        'diamond-club': {
+            name: 'Diamond Club Casino',
+            rating: '9.4/10',
+            pros: [
+                'Low $10 minimum deposit',
+                'Exclusive slot titles',
+                'Weekly cashback offers',
+                'Good loyalty rewards',
+                'Clean, modern interface'
+            ],
+            cons: [
+                'Smaller game library than competitors',
+                'Slower payout times',
+                'Support not available 24/7'
+            ],
+            summary: 'Diamond Club is perfect for budget-conscious players. With a low minimum deposit and exclusive games, it offers quality gaming without breaking the bank.'
+        },
+        'quick-bet-casino': {
+            name: 'Quick Bet Casino',
+            rating: '6.1/10',
             pros: [
                 '150% bonus up to $1,500',
                 'Established and trusted brand',
