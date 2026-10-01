@@ -264,6 +264,16 @@ const casinoData = {
         support: '24/7 Multilingual Support',
         minDeposit: '$20'
     },
+    'pike-casinos': {
+        name: 'Pike Casinos',
+        bonus: '200% up to $2,000',
+        freeSpins: '400 Free Spins',
+        games: '10,000+',
+        payout: '24-48 hours',
+        rating: '9.8/10',
+        support: '24/7 Multilingual Support',
+        minDeposit: '$20'
+    },
     'fieryplay': {
         name: 'FieryPlay Casino',
         bonus: '150% up to $1,500',
@@ -645,6 +655,69 @@ function openReviewModal(casinoId) {
                 'Live chat can be busy during peak hours'
             ]
         },
+        'pike-casino': {
+            name: 'Pike Casinos',
+            rating: '8.8/10',
+            quickVerdict: 'Pike Casino is a newly launched online casino operated by Goodwin N.V. and reported to hold a Curaçao gaming licence. It offers more than 10,000 casino games from over 100 software providers, including slots, table games, live casino and instant-win titles.',
+            bonuses: {
+                welcome: '500% up to $2,500 + 400 Free Spins',
+                wageringRequirement: '35x bonus',
+                minDeposit: '$100',
+                features: [
+                    'Daily casino promotions and offers',
+                    'Sports betting welcome bonus available',
+                    'Reload bonuses every Friday - up to 50%',
+                    'Elite VIP cashback program - up to 15%',
+                    'Birthday bonus surprises',
+                    'Exclusive high-roller packages',
+                    'Acca boost for sports betting'
+                ]
+            },
+            paymentMethods: {
+                deposits: ['Visa/Mastercard', 'PayPal', 'Skrill', 'Neteller', 'Paysafecard', 'Bank Transfer', 'Rapid Transfer', 'Apple Pay', 'Google Pay'],
+                withdrawals: ['Same as deposit methods'],
+                withdrawalTime: '24-48 hours (E-wallets) / 3-5 days (Cards) / 1-3 days (Bank Transfer)',
+                limits: 'Min: $10 / Max: $30,000 per transaction (VIP higher)'
+            },
+            softwareProviders: [
+                'Playtech',
+                'Evolution Gaming',
+                'NetEnt',
+                'Microgaming',
+                'Pragmatic Play',
+                'Red Tiger',
+                'Blueprint Gaming',
+                'Big Time Gaming',
+                'Quickspin',
+                'Nolimit City',
+                'Yggdrasil',
+                'Push Gaming',
+                'Thunderkick',
+                'ELK Studios',
+                '+ 50 more providers'
+            ],
+            pros: [
+                'More than 10,000 casino games.',
+                'Over 100 software providers.',
+                'Strong selection of slots and live casino games.',
+                'Regular cashback and jackpot promotions.',
+                'Referral programme with free spins.',
+                'Supports cards, e-wallets, bank transfers and cryptocurrencies',
+                'Minimum deposit from around €10',
+                'Fast and reliable withdrawals',
+                'Excellent 24/7 multilingual customer support',
+                'Live chat support is available',
+                'Mobile-friendly website for desktop and smartphone users',
+                
+                'In-play betting and cash-out features',
+                'Tutorial system for beginners'
+            ],
+            cons: [
+                'Welcome bonus terms are not fully consistent across Pike Casino documents.',
+                'High wagering requirement of 40x or 60x, depending on the published terms.',
+                'No clearly published maximum bet for the welcome bonus.'
+            ]
+        },
         'royal-reels-casino': {
             name: 'Royal Reels Casino',
             rating: '6.1/10',
@@ -938,6 +1011,7 @@ function openReviewModal(casinoId) {
             ],
             summary: 'True to its name, Turbo Casino is all about speed. If fast payouts and quick transactions are priorities, this is your casino.'
         },
+        
         'pocket-casino': {
             name: 'Pocket Casino Pro',
             rating: '9.3/10',
@@ -958,6 +1032,24 @@ function openReviewModal(casinoId) {
         'nova-gaming': {
             name: 'Nova Gaming',
             rating: '9.2/10',
+            pros: [
+                'Massive 300% welcome bonus',
+                'Gamification features',
+                'Social gaming elements',
+                'Tournament support',
+                'Modern platform',
+                'Innovative features'
+            ],
+            cons: [
+                'New platform (less track record)',
+                'Higher wagering requirements',
+                'Higher minimum deposit'
+            ],
+            summary: 'Nova Gaming brings fresh innovation to online casinos with gamification and social features. Great for players seeking a modern, interactive experience.'
+        },
+        'pike': {
+            name: 'Pike Casinos',
+            rating: '9.0/10',
             pros: [
                 'Massive 300% welcome bonus',
                 'Gamification features',
