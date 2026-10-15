@@ -274,13 +274,13 @@ const casinoData = {
         support: '24/7 Multilingual Support',
         minDeposit: '$20'
     },
-    'fieryplay': {
-        name: 'FieryPlay Casino',
-        bonus: '150% up to $1,500',
+    'jumboBet': {
+        name: 'JumboBet Casino',
+        bonus: 'up to $2,000',
         freeSpins: '100 Free Spins',
-        games: '3,200+',
+        games: '999+',
         payout: 'Instant (Crypto)',
-        rating: '6.7/10',
+        rating: '9.7/10',
         support: '24/7 Multilingual Support',
         minDeposit: '$20'
     },
@@ -292,16 +292,6 @@ const casinoData = {
         payout: 'Instant (Crypto)',
         rating: '6.7/10',
         support: '24/7 Multilingual Support',
-        minDeposit: '$20'
-    },
-    'boomerang': {
-        name: 'Boomerang Casino',
-        bonus: '150% up to $1,500',
-        freeSpins: '100 Free Spins',
-        games: '3,200+',
-        payout: 'Instant (Crypto)',
-        rating: '9.7/10',
-        support: 'Live Chat & Email',
         minDeposit: '$20'
     },
     'millioner': {
@@ -592,69 +582,6 @@ function openReviewModal(casinoId) {
                 'Live chat can be busy during peak hours'
             ]
         },
-        'fieryPlay': {
-            name: 'FieryPlay Casino',
-            rating: '6.7/10',
-            quickVerdict: 'FieryPlay is a premium Australian-themed casino known for its exceptional game variety and player-focused features. It offers exclusive original slots, a generous cashback program, and lightning-fast crypto payments, making it a great choice for players seeking quality and innovation.',
-            bonuses: {
-                welcome: '150% up to $1,500 + 100 Free Spins',
-                wageringRequirement: '35x bonus',
-                minDeposit: '$20',
-                features: [
-                    'Daily casino promotions and offers',
-                    'Sports betting welcome bonus available',
-                    'Reload bonuses every Friday - up to 50%',
-                    'Elite VIP cashback program - up to 15%',
-                    'Birthday bonus surprises',
-                    'Exclusive high-roller packages',
-                    'Acca boost for sports betting'
-                ]
-            },
-            paymentMethods: {
-                deposits: ['Visa/Mastercard', 'PayPal', 'Skrill', 'Neteller', 'Paysafecard', 'Bank Transfer', 'Rapid Transfer', 'Apple Pay', 'Google Pay'],
-                withdrawals: ['Same as deposit methods'],
-                withdrawalTime: '24-48 hours (E-wallets) / 3-5 days (Cards) / 1-3 days (Bank Transfer)',
-                limits: 'Min: $10 / Max: $30,000 per transaction (VIP higher)'
-            },
-            softwareProviders: [
-                'Playtech',
-                'Evolution Gaming',
-                'NetEnt',
-                'Microgaming',
-                'Pragmatic Play',
-                'Red Tiger',
-                'Blueprint Gaming',
-                'Big Time Gaming',
-                'Quickspin',
-                'Nolimit City',
-                'Yggdrasil',
-                'Push Gaming',
-                'Thunderkick',
-                'ELK Studios',
-                '+ 50 more providers'
-            ],
-            pros: [
-                '200% welcome bonus up to $2,000 + 150 free spins',
-                '20+ years of trusted operation worldwide',
-                '4,000+ premium casino games',
-                '200+ live dealer tables with professional dealers',
-                'Award-winning mobile app (iOS & Android)',
-                'Integrated sports betting platform',
-                'Elite VIP program with personal account managers',
-                'Fast and reliable withdrawals',
-                'Excellent 24/7 multilingual customer support',
-                'Multiple payment options including e-wallets',
-                'Live streaming of sports events',
-                'Strong licensing and regulation (UK, Malta)',
-                'In-play betting and cash-out features',
-                'Tutorial system for beginners'
-            ],
-            cons: [
-                'Bonus wagering requirements are standard (35x)',
-                'Some countries restricted',
-                'Live chat can be busy during peak hours'
-            ]
-        },
         'pike-casino': {
             name: 'Pike Casinos',
             rating: '8.8/10',
@@ -717,6 +644,7 @@ function openReviewModal(casinoId) {
                 'High wagering requirement of 40x or 60x, depending on the published terms.',
                 'No clearly published maximum bet for the welcome bonus.'
             ]
+           
         },
         'royal-reels-casino': {
             name: 'Royal Reels Casino',
@@ -844,13 +772,13 @@ function openReviewModal(casinoId) {
                 'Live chat can be busy during peak hours'
             ]
         },
-        'boomerang': {
-            name: 'Boomerang Casino',
+        'jumboBet': {
+            name: 'JumboBet Casino',
             rating: '9.7/10',
-            quickVerdict: 'Boomerang Casino delivers a premium gaming experience with an Australian flair. Featuring exclusive original slots, one of the industry\'s best cashback programs at 20% weekly, and outstanding crypto payment options, Boomerang stands out as a player-focused casino that rewards loyalty. With 3,200+ games and innovative features, it\'s perfect for players who want quality entertainment and excellent value.',
+            quickVerdict: 'JumboBet Casino delivers a premium gaming experience with an Australian flair. Featuring exclusive original slots, one of the industry\'s best cashback programs at 20% weekly, and outstanding crypto payment options, JumboBet stands out as a player-focused casino that rewards loyalty. With 999+ games and innovative features, it\'s perfect for players who want quality entertainment and excellent value.',
             bonuses: {
-                welcome: '150% up to $1,500 + 100 Free Spins',
-                wageringRequirement: '30x bonus',
+                welcome: 'up to $2,000 + 100 Free Spins',
+                wageringRequirement: '35x bonus',
                 minDeposit: '$20',
                 features: [
                     'Weekly cashback bonus - 20% on losses',
@@ -888,10 +816,10 @@ function openReviewModal(casinoId) {
                 '+ 40 more providers'
             ],
             pros: [
-                '150% welcome bonus up to $1,500 + 100 free spins',
+                '150% welcome bonus up to $2,000 + 100 free spins',
                 '20% weekly cashback - one of the highest in the industry',
-                '3,200+ premium casino games',
-                'Exclusive Boomerang Original slot games',
+                '999+ premium casino games',
+                'Exclusive JumboBet Original slot games',
                 'Instant cryptocurrency withdrawals',
                 'Crypto-friendly with multiple coin options',
                 'Modern and intuitive user interface',
